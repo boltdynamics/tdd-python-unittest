@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+nose2-cov = "*"
+nose2 = {version = "*", extras = ["coverage_plugin"]}
+
+[requires]
+python_version = "3.11"
